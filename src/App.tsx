@@ -9,14 +9,6 @@ import {AppBar, Button, Container, Grid, IconButton, Paper, Toolbar, Typography}
 import {Menu} from "@material-ui/icons";
 
 
-/*export function Counter() {
-    let [data,setData] = useState(5)
-
-    return <div>{data}
-        <button onClick={() => setData(data + 1)}></button>
-    </div>
-}*/
-
 export type  FilterValueType = 'all' | 'active' | 'completed'
 
 type todolistsType = {
